@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+
+*,
+*:after,
+*:before {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ul li {
+    list-style: none;
+} */
+
+
+
+body {
+    padding: 0px 100px;
+}
+
+#navbarMonstera {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: bisque; */
+    align-items: center;
+    padding: 50px 0px;
+}
+
+#navFirst {
+    flex: 1;
+}
+
+#navMid {
+    display: flex;
+    justify-content: space-between;
+    flex: 2;
+    font-size: 20px;
+    font-family: Allerta;
+}
+
+#navMid div {
+    /* box-sizing: content-box; */
+}
+
+#navMid div h4 {
+    position: relative;
+    box-sizing: border-box;
+}
+
+#navMid div h4:hover::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: -6px;
+}
+
+#navEnd {
+    padding-left: 50px;
+    display: flex;
+    justify-content: end;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+#navEnd div {
+    padding-left: 50px;
+}
+
+#midWhole {
+    /* position: relative; */
+}
+
+
+#midWholePart11 {
+    /* background-color: cyan; */
+    padding-top: 100px;
+    height: 300px;
+    font-family: Roboto;
+    font-size: 50px;
+    width: 60%;
+}
+
+#desc {
+    /* background-color: antiquewhite; */
+    position: relative;
+}
+
+li::marker {
+    position: absolute;
+    content: "•   ";
+    font-size: 2.0rem;
+    color: black;
+    vertical-align: bottom;
+    left: -10px;
+}
+
+/* ul li::before {
+    content: "•";
+    font-size: 20pt;
+    position: absolute;
+    left: -20px;
+} */
+
+#midWholePart121 {
+    background-color: #466D50;
+    width: 200px;
+    /* margin-right: 0px 0px; */
+    height: 50px;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    color: white;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+#midWholePart121 div {
+    display: inline-block;
+}
+
+#midWholePart122 img {
+    height: 20px;
+    padding-left: 25px;
+}
+
+
+#desc li:nth-child(1)~li {
+    font-size: 20px;
+}
+
+
+#midWholePart13 {
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+
+#midWholePart13>div {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+#image,
+#light,
+#care {
+    margin-right: 20px;
+}
+
+.text {
+    font-size: 12px;
+}
+
+
+#imgMain {
+    position: absolute;
+    height: 600px;
+    top: 144px;
+    left: 1080px;
+}
