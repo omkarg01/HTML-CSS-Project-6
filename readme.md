@@ -5,7 +5,7 @@
 ![hitesh choudhary](https://img.shields.io/badge/Hitesh--Choudhary-Full--stack--JS--bootcamp-red)
 ![HTML & CSS](https://img.shields.io/badge/HTML-CSS-orange)
 
-## Project 6 [Live Link](https://62e2b9e663dac343c9a6aa9b--monumental-cannoli-65f843.netlify.app/)
+## Project 6 [Live Link](https://plant-og.netlify.app)
 
 -   Skills Gained in this project
     -   Learned to use external fontawesome icon library.
